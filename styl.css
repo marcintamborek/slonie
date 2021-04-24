@@ -1,0 +1,93 @@
+body { width: 100%; height: 100%;}
+header { background: yellow; width:100%; height: 5%; color: red; text-align: center; font: 45px Arial; }
+#main {width: 100%; height: 93%}
+section { background: green; width:40%; height: 1080px; float: left; color: white; font: 15px Arial; }
+#gora {width: 100%; height: 35%; }
+#dol {width: 100%; height: 65%; }
+#zd1 {width: 100%; height: 100%; }
+#zd2 {width: 100%; height: 100%; }
+#zd3 {width: 100%; height: 100%; }    
+aside { background: orange; width:60%; height: 1080px; float: left;}
+#kwadrat1 { background: orange; width:50%; height: 50%; float: left;}
+#kwadrat2 { background: orange; width:50%; height: 50%; float: right;}
+#kwadrat3 { background: orange; width:50%; height: 50%; float: left;}
+#kwadrat4 { background: orange; width:50%; height: 50%; float: right;}
+footer { background: blue; width:100%; height: 2%; clear: both; color: white; text-align: center; font: 14px Arial; }
+p { font: 0.8vmax Arial, sans-serif; color: white; text-align: left; }
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+	background-color: #e9e9e9;
+}
+
+.inline {
+	display: inline-block;
+	top: 0;
+	vertical-align: top;
+}
+
+#choose, #players, #resert_div {
+	width: 400px;
+	height: auto;
+	text-align: center;
+	border: 1px solid black;
+	padding: 20px 0;
+	margin: 7px 0;
+	background-color: blue;
+}
+
+#one_player, #two_players, #reset {
+	padding: 5px;
+}
+
+#play_with, #you_choose {
+	margin: 20px;
+	font-size: 20px;
+}
+
+table{
+	max-width: 450px;
+	max-height: 450px;
+	margin: 5px auto;
+}
+
+td
+{
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 50px;
+	background-color: blue;
+	border-radius: 5px;
+}
+
+#helper
+{
+	display: none;
+}
+
+#statement
+{
+	max-width: 450px;
+	height: 150px;
+	margin: 50px auto;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 30px;
+	background-color: blue;
+
+}
+
+
+@media screen and (max-width: 400px) {
+	.inline {
+		display: block;
+	}
+	
+	#choose, #players, #resert_div {
+		width: 100%;
+	}
+}
